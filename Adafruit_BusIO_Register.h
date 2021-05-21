@@ -54,8 +54,8 @@ public:
 
   uint8_t width(void);
 
-  void print(Stream *s = &Serial);
-  void println(Stream *s = &Serial);
+//   void print(Stream *s = &Serial);
+//   void println(Stream *s = &Serial);
 
 private:
   Adafruit_I2CDevice *_i2cdevice;
