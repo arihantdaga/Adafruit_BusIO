@@ -246,20 +246,20 @@ bool Adafruit_BusIO_Register::read(uint8_t *value) {
  *    @brief  Pretty printer for this register
  *    @param  s The Stream to print to, defaults to &Serial
  */
-void Adafruit_BusIO_Register::print(Stream *s) {
-  uint32_t val = read();
-  s->print("0x");
-  s->print(val, HEX);
-}
+// void Adafruit_BusIO_Register::print(Stream *s) {
+//   uint32_t val = read();
+//   s->print("0x");
+//   s->print(val, HEX);
+// }
 
 /*!
  *    @brief  Pretty printer for this register
  *    @param  s The Stream to print to, defaults to &Serial
  */
-void Adafruit_BusIO_Register::println(Stream *s) {
-  print(s);
-  s->println();
-}
+// void Adafruit_BusIO_Register::println(Stream *s) {
+//   print(s);
+//   s->println();
+// }
 
 /*!
  *    @brief  Create a slice of the register that we can address without
